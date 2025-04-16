@@ -22,7 +22,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* height: 100vh; */
+  min-height: calc(100vh - 100px);
+  height: 100vh;
 }
 
 body {
@@ -133,3 +134,4 @@ body {
 
 
 }
+
